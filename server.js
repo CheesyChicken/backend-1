@@ -94,7 +94,7 @@ function initial() {
 
 db.sequelize.sync();
 var corsOptions = {
-  origin: "http://localhost:8081",
+  origin: "https://project-monitor-frontend.herokuapp.com",
   allowedHeaders: "*"
 };
 
